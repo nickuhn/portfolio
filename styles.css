@@ -66,7 +66,7 @@ header a {
 }
 
 .app {
-  width: 304px;
+  width: 350px;
   height: 425px;
   margin: 25px;
 }
@@ -77,6 +77,7 @@ header a {
 }
 
 .thumbnail {
+  margin-left: 25px;
   width: 300px;
   height: 300px;
   border-radius: 150px;
@@ -84,6 +85,6 @@ header a {
 }
 
 .github {
-  margin-left: 136px;
+  margin-left: 161px;
 }
 
