@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Donut Demand Estimator</title>
+    <meta name="description" content="Calculator, Donut, Estimator, Per Hour Table">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700|Montserrat:400,700|Kaushan+Script' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <header>
+      <h1 class="main-header">Hourly Donut Demand Estimator</h1>
+      <form>
+        <input id="min-cust-hour" type="number" placeholder="Min Cust Per Hour">
+        <input id="max-cust-hour" type="number" placeholder="Max Cust Per Hour">
+        <input id="donut-cust" type="number" placeholder="Avg Donut Per Cust">
+        <input id="location" type="text" placeholder="Location Name">
+        <button type="button" id="submit-new-store">Submit</button>
+      </form>
+    </header>
+    <main>
+      <article class="table">
+        <h2 class="table-header">Donuts Needed for Each Hour</h2>
+        <table id="main-table" class="main-table">
+          <thead id="table-head" class="table-head">
+          </thead>
+          <tbody id="table-body">
+          </tbody>
+        </table>
+        <form>
+          <h3 class="hour-input-header">Input open and close times to update table.</h3>
+          <label for="open">What time do you open?</label>
+          <input id="open" type="number" placeholder="hour in 24H format">
+          <label for="close">What time do you close?</label>
+          <input id="close" type="number" placeholder="hour in 24H format">
+          <button type="button" id="submit-hours" >Submit</button>
+        </form>
+      </article>
+      <aside>
+        <p>Tired of running out of donuts in the middle of a rush? Even worse having too many left at the end of the day?</p>
+        <p>This handy estimator will help to minimize those losses and make you business even more profitable!</p>
+      </aside>
+    </main>
+    <footer>
+      <p>Created and Updated by: Nick Kuhn</p>
+    </footer>
+    <script type="text/javascript" src="tp_estimator.js"></script>
+  </body>
+</html>
+

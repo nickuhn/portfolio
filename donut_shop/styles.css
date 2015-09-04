@@ -1,0 +1,202 @@
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color:#DDDCC5;
+  color: #1D2326;
+  max-width: 960px;
+  margin: auto;
+}
+
+h1, h2, h3, th {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-header{
+  margin-top: auto;
+  font-size: 2em
+}
+
+.table-header {
+  margin-left: 20%;
+}
+
+.hour-input-header {
+  margin-left: 17%;
+}
+
+header {
+  background-color: #1D2326;
+  color: #DDDCC5;
+  padding: 10px;
+  text-align: center;
+  width: 930px;
+  margin: auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+aside {
+  width: 20%;
+  float: right;
+  padding-top: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table {
+  width: 75%;
+  margin: 0;
+  display: inline-block;
+}
+
+.main-table {
+  background-color: #958976;
+  border: 3px outset #1D2326;
+  border-collapse: collapse;
+  font-size: .6em;
+}
+
+.main-table th {
+  border: 3px outset #1D2326;
+  padding: 5px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.main-table td {
+  border: 3px outset #1D2326;
+  padding: 5px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.main-table td:hover,
+.main-table td:focus {
+  background-color: #611427;
+  color: #DDDCC5;
+  transform: scale(2.0);
+  -webkit-transform: scale(2.0);
+  -ms-transform: scale(2.0);
+}
+
+tr:nth-child(odd) {
+  background-color: #DDDCC5;
+}
+
+.table-head tr {
+  background-color: #611427;
+  color: #DDDCC5;
+}
+
+form button{
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+input {
+  background-color: #E2F0D6;
+  border-radius: 5px;
+  margin:2px 10px;
+}
+
+input:hover {
+  background-color: lightgrey;
+}
+
+button {
+  background-color: #958976;
+  color: #1D2326;
+  border-radius: 5px;
+  width: 80px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@-webkit-keyframes wiggle {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+  }
+}
+@keyframes wiggle {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+  }
+}
+button:hover, button:focus {
+  background-color: #611427;
+  color: #DDDCC5;
+  -webkit-animation: wiggle .1s 5 ease;
+  -moz-animation: wiggle .1s 5 ease;
+  -o-animation: wiggle .1s 5 ease;
+}
+
+
+button:active {
+  background-color: #1D2326;
+}
+
+footer p {
+  font-family: 'Kaushan Script', cursive;
+}
+
+footer {
+  clear:both;
+}
+
+
+
+@media screen and (max-width:865px) {
+
+  header form input {
+    display:inline-block;
+  }
+
+  header{
+    width: auto;
+  }
+
+  main form {
+    clear: both;
+    display:inline-block;
+    width: 45%;
+    float: left;
+  }
+
+  main form label, main form input {
+    display: inline-block;
+  }
+
+  main form button {
+    display: block;
+    margin: auto;
+  }
+
+  aside {
+    clear: both;
+    display:inline-block;
+    width: 45%;
+    float: left;
+  }
+
+  footer{
+    display:none;
+  }
+
+}

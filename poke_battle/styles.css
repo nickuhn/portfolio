@@ -1,0 +1,54 @@
+h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+body {
+  width: 500px;
+  margin: auto;
+  border: 3px black solid;
+  border-radius: 5px 5px 70px 70px;
+  height: 750px;
+}
+
+#attackList {
+  width: 300px;
+  margin: auto;
+}
+
+#printOut {
+  margin: auto;
+  width: 300px;
+  height: 200px;
+  overflow: scroll;
+}
+
+#battleField {
+  margin: auto;
+  height: 350px;
+  width: 350px;
+  background-color: #eee;
+  border: 10px #333 solid;
+  border-radius: 5px;
+}
+
+#userText, #userPic {
+  float: right;
+  clear: both;
+  padding: 10px;
+}
+
+#enemyText, #enemyPic {
+  float: left;
+  clear: both;
+  padding: 10px;
+}
+
+button {
+  margin: 15px 5px;
+  background-color: #AAA;
+  border-radius: 100%;
+  width: 90px;
+  height: 35px;
+  cursor: pointer;
+}
