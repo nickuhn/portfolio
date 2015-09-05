@@ -57,6 +57,11 @@ header a {
 }
 
 .flex-container {
+  display: none;
+  border-top: 2px solid #6a9783;
+}
+
+.active-box {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -87,4 +92,23 @@ header a {
 .github {
   margin-left: 161px;
 }
+.tab {
+  background-color: #CECECE;
+  color: #000;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: .75em;
+  border-radius: 5px 5px 0 0;
+  padding: 5px 15px 3px 15px;
+  border: 2px solid #6a9783;
+  margin: 0px -1px 0px 0px;
+}
+
+.active {
+  background-color: #FFF;
+  color: #000;
+  border-bottom: #FFF;
+  padding-bottom: 5px;
+}
+
 
