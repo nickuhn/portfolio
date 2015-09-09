@@ -37,6 +37,11 @@ header a {
   top: 0;
 }
 
+#skype {
+  height: 30px;
+  width: 30px;
+}
+
 .headline {
   text-align: center;
   margin: 10px 0px 0px 0px;
